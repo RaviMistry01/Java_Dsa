@@ -28,7 +28,5 @@ public class SecondMax {
         int result = findSecondMax(arr);
         System.out.println(result);
    
-      
-        
     }
 }
