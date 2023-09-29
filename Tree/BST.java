@@ -50,6 +50,24 @@ public class BST {
 
     }
 
+    private Node searchElement(int key) {
+        return searchElement(root, key);
+
+    }
+
+    public Node searchElement(Node root, int key) {
+
+        if (root == null || root.data == key) {
+            return root;
+        }
+
+        if (key < root.data) {
+            return searchElement(root.left, key);
+        } else {
+            return searchElement(root.right, key);
+        }
+    }
+
     public static void main(String[] args) {
         BST b1 = new BST();
         b1.insert(10);
@@ -61,6 +79,14 @@ public class BST {
         b1.insert(20);
         b1.display();
 
+        if (b1.searchElement(110) != null) {
+
+            System.out.println("Element found !!!");
+        }
+
+        else {
+            System.out.println("Element not found !!!");
+        }
     }
 
 }
