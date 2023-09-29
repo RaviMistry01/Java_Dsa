@@ -37,16 +37,16 @@ public class BST {
     }
 
     public void display() {
-        display(this.root, "");
+        display(this.root, "root node :");
     }
 
-    private void display(Node node, String indent) {
+    private void display(Node node, String details) {
         if (node == null) {
             return;
         }
-        System.out.println(indent + node.data);
-        display(node.left, indent + "\t");
-        display(node.right, indent + "\t");
+        System.out.println(details + node.data);
+        display(node.left, "left child of " + node.data + ":  ");
+        display(node.right, "right child of " + node.data + ":  ");
 
     }
 
@@ -55,7 +55,7 @@ public class BST {
         b1.insert(10);
         b1.insert(9);
         b1.insert(8);
-        
+
         b1.insert(15);
         b1.insert(14);
         b1.insert(20);

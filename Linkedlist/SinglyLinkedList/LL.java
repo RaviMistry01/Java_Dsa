@@ -4,41 +4,31 @@ public class LL {
 
     Node head;
 
+    // public static Node getListAfterReverseOperation(Node head, int n, int b[]){
 
-    public static Node getListAfterReverseOperation(Node head, int n, int b[]){
+    // int size = 9;
 
-        int size = 9;
+    // if(head == null ) return head;
 
-        if(head == null ) return head;
+    // Node curr = head;
+    // Node prev = null;
+    // Node start = null;
+    // for(int i=0 ; i< n; i++){
 
+    // Node End = curr;
 
-        
-        Node curr = head;
-        Node prev = null;
-        Node start = null;
-        for(int i=0 ; i< n; i++){
-            
-        Node End  = curr;
+    // for(int j = 0 ; j<b[i];j++) {
+    // Node temp = curr.Next;
+    // curr.Next = prev;
+    // prev = curr;
+    // curr = temp;
+    // start = start.Next;
+    // }
+    // End.Next = start;
 
-        for(int j = 0 ; j<b[i];j++) {
-            Node temp = curr.Next;
-            curr.Next = prev;
-            prev = curr;
-            curr = temp;
-            start = start.Next;
-        }
-        End.Next = start;
+    // }
 
-
-    }
-
-        
-
-
-
-
-
-    }
+    // }
 
     static Node rev(Node head) {
 
@@ -187,25 +177,19 @@ public class LL {
 
         LL l1 = new LL();
 
-        l1.addAtIndex(0, 0);
-
-        l1.addFirst(100);
+        // l1.addAtIndex(0, 0);
+        // l1.addFirst(100);
         int[] ar = { 55, 66, 89, 54, 69 };
         l1.addAll(ar);
-        l1.addLast(65);
+        // l1.addLast(65);
 
-        // System.out.println(l1.head.data);
-        // System.out.println(l1.head.Next.data);
-        // System.out.println(l1.head.Next.Next.data);
-
+        System.out.println();
+        l1.removeLast();
         l1.printLinkedList(l1.head);
-        System.out.println();
-        // l1.printLinkedList(rev(l1.head));
-        System.out.println();
+
         // System.out.println(l1.size(l1.));
-
+        // l1.printLinkedList(rev(l1.head));
         // System.out.println(l1.findIndex(88));
-
         // System.out.println();
         // l1.printLinkedList();
 
