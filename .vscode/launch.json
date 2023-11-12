@@ -6,6 +6,97 @@
     "configurations": [
         {
             "type": "java",
+            "name": "convert_to_array",
+            "request": "launch",
+            "mainClass": "Collection_Frameworks.Arraylist.convert_to_array",
+            "projectName": "Java_Dsa_36361067"
+        },
+        {
+            "type": "java",
+            "name": "arraylistpractice",
+            "request": "launch",
+            "mainClass": "Collection_Frameworks.Arraylist.arraylistpractice",
+            "projectName": "Java_Dsa_36361067"
+        },
+        {
+            "type": "java",
+            "name": "find_all_elements",
+            "request": "launch",
+            "mainClass": "Recursion.find_all_elements",
+            "projectName": "Java_Dsa_36361067"
+        },
+        {
+            "type": "java",
+            "name": "Sorted",
+            "request": "launch",
+            "mainClass": "Recursion.Sorted",
+            "projectName": "Java_Dsa_36361067"
+        },
+        {
+            "type": "java",
+            "name": "Maze",
+            "request": "launch",
+            "mainClass": "Backtracking.Maze",
+            "projectName": "Java_Dsa_36361067"
+        },
+        {
+            "type": "java",
+            "name": "passing_num",
+            "request": "launch",
+            "mainClass": "Recursion.passing_num",
+            "projectName": "Java_Dsa_36361067"
+        },
+        {
+            "type": "java",
+            "name": "sum_of_digits",
+            "request": "launch",
+            "mainClass": "Recursion.sum_of_digits",
+            "projectName": "Java_Dsa_36361067"
+        },
+        {
+            "type": "java",
+            "name": "sum_of_digits",
+            "request": "launch",
+            "mainClass": "Searching_and_Sorting.sum_of_digits",
+            "projectName": "Java_Dsa_36361067"
+        },
+        {
+            "type": "java",
+            "name": "printfib",
+            "request": "launch",
+            "mainClass": "Recursion.printfib",
+            "projectName": "Java_Dsa_36361067"
+        },
+        {
+            "type": "java",
+            "name": "Fib",
+            "request": "launch",
+            "mainClass": "Recursion.Fib",
+            "projectName": "Java_Dsa_36361067"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "Searching_and_Sorting.Sorting.BubbleSort",
+            "projectName": "Java_Dsa_36361067"
+        },
+        {
+            "type": "java",
+            "name": "ArrayInput",
+            "request": "launch",
+            "mainClass": "array_problems.ArrayInput",
+            "projectName": "Java_Dsa_36361067"
+        },
+        {
+            "type": "java",
+            "name": "SecondMax",
+            "request": "launch",
+            "mainClass": "array_problems.SecondMax",
+            "projectName": "Java_Dsa_36361067"
+        },
+        {
+            "type": "java",
             "name": "GFG",
             "request": "launch",
             "mainClass": "Recursion.GFG",

@@ -8,8 +8,14 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         tree.populate(scanner);
-        tree.display();
+        // tree.display();
+        tree.preOrder();
+        System.out.println();
+        tree.inoOrder();
+        System.out.println();
+        tree.postOrder();
        
+
        
     }
 }

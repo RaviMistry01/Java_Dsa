@@ -4,31 +4,6 @@ public class LL {
 
     Node head;
 
-    // public static Node getListAfterReverseOperation(Node head, int n, int b[]){
-
-    // int size = 9;
-
-    // if(head == null ) return head;
-
-    // Node curr = head;
-    // Node prev = null;
-    // Node start = null;
-    // for(int i=0 ; i< n; i++){
-
-    // Node End = curr;
-
-    // for(int j = 0 ; j<b[i];j++) {
-    // Node temp = curr.Next;
-    // curr.Next = prev;
-    // prev = curr;
-    // curr = temp;
-    // start = start.Next;
-    // }
-    // End.Next = start;
-
-    // }
-
-    // }
 
     static Node rev(Node head) {
 

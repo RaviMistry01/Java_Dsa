@@ -79,7 +79,9 @@ public class BST {
         b1.insert(20);
         b1.display();
 
-        if (b1.searchElement(110) != null) {
+
+
+        if (b1.searchElement(15) != null) {
 
             System.out.println("Element found !!!");
         }
