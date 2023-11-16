@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FindUniqueBinaryString",
+            "request": "launch",
+            "mainClass": "Leetcode.Day1.FindUniqueBinaryString",
+            "projectName": "Java_Dsa_36361067"
+        },
+        {
+            "type": "java",
+            "name": "VariousArrayMethods",
+            "request": "launch",
+            "mainClass": "array_problems.VariousArrayMethods",
+            "projectName": "Java_Dsa_36361067"
+        },
+        {
+            "type": "java",
+            "name": "ValidParenthesis",
+            "request": "launch",
+            "mainClass": "Strings_problems.ValidParenthesis",
+            "projectName": "Java_Dsa_36361067"
+        },
+        {
+            "type": "java",
+            "name": "PalindromeString",
+            "request": "launch",
+            "mainClass": "Strings_problems.PalindromeString",
+            "projectName": "Java_Dsa_36361067"
+        },
+        {
+            "type": "java",
+            "name": "ReverseString",
+            "request": "launch",
+            "mainClass": "Strings_problems.ReverseString",
+            "projectName": "Java_Dsa_36361067"
+        },
+        {
+            "type": "java",
+            "name": "compressString",
+            "request": "launch",
+            "mainClass": "Strings_problems.compressString",
+            "projectName": "Java_Dsa_36361067"
+        },
+        {
+            "type": "java",
+            "name": "expandString",
+            "request": "launch",
+            "mainClass": "Strings_problems.expandString",
+            "projectName": "Java_Dsa_36361067"
+        },
+        {
+            "type": "java",
             "name": "convert_to_array",
             "request": "launch",
             "mainClass": "Collection_Frameworks.Arraylist.convert_to_array",
