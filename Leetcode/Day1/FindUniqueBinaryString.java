@@ -31,6 +31,6 @@ public class FindUniqueBinaryString {
         String [] nums = {"111","011","001"};
         String ans = findDifferentBinaryString(nums);
 
-        System.out.println(ans);
+        System.out.println(ans); //000
     }
 }
